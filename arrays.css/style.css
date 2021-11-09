@@ -1,0 +1,20 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    gap: .5em;
+}
+
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    flex-basis: 500px;
+    list-style-type: none;
+    border: 5px solid red;
+    
+    margin: 0;
+    padding: 0;
+}
+.lista li{
+    display: flex;
+}
